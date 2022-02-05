@@ -41,8 +41,10 @@ if ($stateArgument -like "stop") {
 }
 elseif($stateArgument -like "start"){
     startInstances($listOfInsatances)
-}elseif($stateArgument -like "state"){
+}
+elseif($stateArgument -like "state"){
     stateOfInsatances($listOfInsatances)
-}else {
+}
+else {
     Write-Host "Smething went wrong"
 }
