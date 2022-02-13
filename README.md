@@ -1,20 +1,18 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Requirements
+1.	Installed AWS CLI
+2.	Configured AWS CLI
+3.	Installed Python 3.*.*
+4.	Installed Boto3
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+1.	# ./ipreleases.sh us-east-1 us-east-2 us-west-1 us-west-2 eu-central-1
+    # -script---------arguments with space separator----------------------
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+2.	# exemple: .\instance_startStopper.ps1 start eu-central-1 i-03013c23f3627ec35,i-03564d05062d4c6ea,          i-0048dd187dce64e42
+    # ------------name of script--------state--region------instances ID without spaces, separete by coma--------
+
+
+3.	# exemple: .\obj_print.py https://my-bucket-for-python-script.s3.eu-central-1.amazonaws.com/my-text.txt
+    # ------------name of script--------URL to S3 object--------
